@@ -36,7 +36,7 @@
         }
       }
     };
-
+    console.log(Pares(32, 321));
 
     // Exercício 03
 
@@ -46,6 +46,8 @@
         return (array.indexOf(skill) !== (-1));
       }
     };
+    console.log(temHabilidade(skills, "Javascript"));
+    console.log(temHabilidade(skills, "Node"));
 
 
     // Exercício 04
@@ -63,7 +65,32 @@
       else {
         return "Jedi Master";
       }
+    };
+
+    console.log(experiencia(2));
+    console.log(experiencia(9));
+
+
+    // Exercício 05
+
+
+    var usuarios = [
+      {
+        nome: "Diego",
+        habilidades: ["Javascript", "ReactJS", "Redux"]
+      },
+      {
+        nome: "Gabriel",
+        habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+      }
+    ];
+    function exibeHabilidades(usuarios) {
+      for (usuario of usuarios) {
+        console.log(
+          "O " + usuario.nome + " possui as habilidades: " + usuario.habilidades.join(", "));
+      }
     }
+    console.log(exibeHabilidades(usuarios));
 
   </script>
 </body>
