@@ -1,4 +1,4 @@
-# JS Rocketseat Challenges 📖
+# JS Rocketseat Challenge 📖
 
 ### **Exercícios: Módulo 01 ** :point_up:
 
